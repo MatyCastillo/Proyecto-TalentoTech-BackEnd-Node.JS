@@ -6,7 +6,7 @@ Backend para el proyecto PFI.
 
 PFI-backnode/  
 ├── src/ # Código fuente del servidor  
-│ └── index.js # Punto de entrada de la aplicación  
+├── index.js # Punto de entrada de la aplicación  
 ├── package.json # Dependencias, scripts y configuración npm  
 ├── package-lock.json # Lock de dependencias  
 └── vercel.json # Configuración de despliegue 
@@ -25,7 +25,6 @@ PFI-backnode/
 
 ```bash
 git clone https://github.com/MatyCastillo/Proyecto-TalentoTech-BackEnd-Node.JS.git
-cd PFI-backnode
 ```
 
 2. Instalar dependencias:
