@@ -1,10 +1,10 @@
-# PFI-backnode
+# Proyecto-TalentoTech-BackEnd-Node.JS
 
-Backend para el proyecto PFI.  
+Backend para el proyecto TalentoTech BackEnd Node.JS.  
 
 ## 🗂 Estructura de carpetas
 
-PFI-backnode/  
+Proyecto-TalentoTech-BackEnd-Node.JS/  
 ├── src/ # Código fuente del servidor  
 ├── index.js # Punto de entrada de la aplicación  
 ├── package.json # Dependencias, scripts y configuración npm  
