@@ -1,59 +1,39 @@
-# Proyecto-TalentoTech-BackEnd-Node.JS
+# PFI-backnode
 
-# Proyecto Backend Node.js - TalentoTech
+Backend para el proyecto PFI.  
 
-Este proyecto es una entrega inicial para el curso **TalentoTech**. Consiste en una pequeña aplicación de consola en Node.js que permite interactuar con la [Fake Store API](https://fakestoreapi.com/) para gestionar productos.
+## 🗂 Estructura de carpetas
 
-## Funcionalidades
+PFI-backnode/  
+├── src/ # Código fuente del servidor  
+│ └── index.js # Punto de entrada de la aplicación  
+├── package.json # Dependencias, scripts y configuración npm  
+├── package-lock.json # Lock de dependencias  
+└── vercel.json # Configuración de despliegue 
 
-- Listar todos los productos
-- Obtener un producto por ID
-- Agregar un nuevo producto
-- Eliminar un producto por ID
 
-## Uso
+## 🚀 Tecnologías utilizadas
 
-1. Instala las dependencias:
+- Node.js  
+- JavaScript (ES)  
+- Express (framework web para Node.js) :contentReference[oaicite:2]{index=2}  
+- (Opcional) configuración para despliegue vía Vercel — por el archivo `vercel.json`
 
-   ```
-   npm install
-   ```
+## 🛠 Instalación y ejecución local
 
-2. Ejecuta los siguientes comandos según la acción deseada:
+1. Clonar el repositorio:
 
-- **Listar productos:**
+```bash
+git clone https://github.com/MatyCastillo/Proyecto-TalentoTech-BackEnd-Node.JS.git
+cd PFI-backnode
+```
 
-  ```
-  npm run start GET products
-  ```
+2. Instalar dependencias:
+```bash
+npm install
+```
 
-- **Obtener producto por ID:**
-
-  ```
-  npm run start GET products/1
-  ```
-
-- **Agregar producto:**
-
-  ```
-  npm run start POST "Nombre del producto" 99.99 "categoría"
-  ```
-
-- **Eliminar producto:**
-  ```
-  npm run start DELETE products/1
-  ```
-
-## Estructura
-
-- `index.js`: Entrada principal, interpreta los comandos de consola.
-- `fakeStoreAPI.js`: Funciones para interactuar con la API.
-- `package.json`: Configuración del proyecto y dependencias.
-
-## Autor
-
-Matias Castillo
-
----
-
-Entrega para el curso TalentoTech - 2025
+3. Ejecutar el servidor en modo desarrollo / local:
+```bash
+npm start
+```
